@@ -1,0 +1,57 @@
+/* common shared styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* primary color class */
+.primary-color {
+    color: #FD6E0A;
+}
+
+/* 01. button set */
+.button-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+
+/* nav related styles */
+nav {
+    display: flex;
+    /* 02. set align item */
+    align-items: center;
+    /* 04. */
+    justify-content: space-between;
+}
+
+/* class of h3 style */
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* nav ul style */
+nav>ul {
+    display: flex;
+    /* 03. */
+    align-items: center;
+}
+
+/* correcting li properties */
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+/* anchor tag */
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
