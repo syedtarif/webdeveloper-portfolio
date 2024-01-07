@@ -20,6 +20,22 @@ body {
     padding: 15px 35px;
 }
 
+/* 20. */
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+/* 21. */
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
 /* nav related styles */
 nav {
     display: flex;
@@ -61,15 +77,22 @@ nav a {
 /* 05. header related style */
 .header-part {
     background: #FFF8F3;
+    /* 13. */
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 /* 07. */
 .banner {
-    padding: 30px 30px 30px 150px;
+    /* 14. changing bottom padding 30px to 0 */
+    padding: 30px 30px 0 150px;
     /* 10. */
     display: flex;
     /* 12. */
     align-items: center;
+    /* 17. */
+    justify-content: space-between;
 }
 
 /* 11. */
@@ -77,6 +100,39 @@ nav a {
     width: 500px;
 }
 
+/* 15. */
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* 16. */
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 635px;
+    /* margin-right: 250px; */
+    margin-bottom: 30px;
+}
+
+/* main part */
+/* 19. about section style */
+.about {
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    /* 22. */
+    margin: 130px 0;
+}
 
 
-/* 12. */
+/* 22. */
