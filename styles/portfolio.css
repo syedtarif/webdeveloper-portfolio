@@ -27,6 +27,8 @@ nav {
     align-items: center;
     /* 04. */
     justify-content: space-between;
+    /* 06. */
+    margin: 0 200px;
 }
 
 /* class of h3 style */
@@ -55,3 +57,26 @@ nav a {
     text-decoration: none;
     color: #474747;
 }
+
+/* 05. header related style */
+.header-part {
+    background: #FFF8F3;
+}
+
+/* 07. */
+.banner {
+    padding: 30px 30px 30px 150px;
+    /* 10. */
+    display: flex;
+    /* 12. */
+    align-items: center;
+}
+
+/* 11. */
+.banner .profile-picture {
+    width: 500px;
+}
+
+
+
+/* 12. */
