@@ -95,6 +95,10 @@ nav a {
     justify-content: space-between;
 }
 
+.banner-content {
+    max-width: 700px;
+}
+
 /* 11. */
 .banner .profile-picture {
     width: 500px;
@@ -124,7 +128,7 @@ nav a {
     margin-bottom: 30px;
 }
 
-/* main part */
+
 /* 19. about section style */
 .about {
     padding: 130px;
@@ -134,5 +138,19 @@ nav a {
     margin: 130px 0;
 }
 
+/* 23. main part*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 
-/* 22. */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+}
+
+/* 23. */
